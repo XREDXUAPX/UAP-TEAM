@@ -1,7 +1,7 @@
 import os 
 def updata0():
     b='tss.txt'
-    gt = b.read()
+    P = b.read()
     m=('1')
     if gt == m:
         nice =('')
