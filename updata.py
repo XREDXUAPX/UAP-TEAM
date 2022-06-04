@@ -1,6 +1,6 @@
 import os 
 def updata0():
-    b='tss.txt'
+    b=open('tss.txt','r')
     P = b.read()
     m=('1')
     if gt == m:
