@@ -3,7 +3,7 @@ def updata0():
     b=open('tss.txt','r')
     P = b.read()
     m=('1')
-    if gt == m:
+    if p == m:
         nice =('')
         try :
                         sleep(5)
@@ -33,7 +33,7 @@ def updata0():
                         print (R+"Zekr not found")
                         updata()
         nice =('')
-    if gt != m :
+    if p != m :
         updata() 
 def updata():
        os.system('mv -f updata /data/data/com.termux/files/home')
