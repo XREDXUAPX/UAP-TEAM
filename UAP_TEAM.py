@@ -1,14 +1,4 @@
-def start():
-    try :
-        tttid=open('tss.txt','r')
-        tt = tttid.read()
-        import updata
-        updata.updata0()
-    except :
-        with open('tss.txt','a')as (test):
-            test.write('1')
-        import updata 
-        updata.updata0()    
+def start(): 
     try :
     	byg = open('lode.txt','r')
     	gt = byg.read()
